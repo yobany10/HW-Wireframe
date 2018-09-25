@@ -7,7 +7,7 @@ body {
     font-size: 18px;
 }
 
-header, nav, aside, footer {
+header, nav, footer {
     background: #ebebeb;
     width: 900px;
     height: 80px;
@@ -20,6 +20,7 @@ header, nav, aside, footer {
 section {
     background: #ebebeb;
     width: 495px;
+    height: 240px;
     text-align: center;
 }
 
@@ -27,9 +28,35 @@ article {
     color: #ebebeb;
     background: #777;
     width: 450px;
+    height: 180px;
 }
 
 h1, p {
     color: #777;
     background: #ebebeb;
+    width: 380px;
+    height: 40px;
+}
+
+aside {
+    background: #ebebeb;
+    width: 400px;
+    height: 240px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+#section {
+    float: left;
+}
+
+#aside {
+    float: left;
+}
+
+#footer {
+    clear: both;
 }
