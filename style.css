@@ -38,13 +38,29 @@ article {
     background: #777;
     width: 450px;
     height: 180px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
 }
 
-h1, p {
+h1 {
     color: #777;
     background: #ebebeb;
-    width: 380px;
+    width: 400px;
     height: 40px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+    width: 400px;
+    height: 40px;
+    margin: auto;
 }
 
 aside {
